@@ -10,6 +10,9 @@ body {
     font-family: Arial, sans-serif;
    
 }
+.container img{
+    width:400px;
+    margin: 0 auto;}
 
 .card{
     margin: 10px;
@@ -26,7 +29,7 @@ body {
   border: 2px solid rgb(12, 238, 80);
   border-radius: 8px;
   padding: 5px;
-  
+  margin: 0 0 10 0px;
   
   
 }

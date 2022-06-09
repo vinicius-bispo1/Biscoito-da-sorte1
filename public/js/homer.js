@@ -9,7 +9,7 @@ button.addEventListener('click', sortesAleatoria);
 function sortesAleatoria() {
 
 
-    let i = Math.round(Math.random() * 5);
+    let i = Math.floor(Math.random() * (359 - 0 + 1) + 0)
     
     divSortes.textContent = sortes[i];
 
