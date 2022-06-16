@@ -8,12 +8,16 @@
     <title>Biscoito da Sorte</title>
     <link rel="stylesheet" href="/css/style.css">
 
-    
+    <script>
+        //criando variavel global para acessar o array de frases
+        var sortes = <%- JSON.stringify(sortes) %> //stringify transforma em string o objeto
+    </script>
 </head>
 
 <body class="d-flex align-items-center text-center bg-success bg-opacity-25">
 
     <div class="container">
+        <div class="container-item">
         <img class="img-fluid" src="./img/fortune-cookie.png" alt="Biscoito da sorte">
         <h1>Biscoito da Sorte</h1>
         <div class="card m-4">
@@ -21,6 +25,7 @@
             </div>
         </div>
         <button class="btn btn-success"><strong><h4>Boa sorte</h4></button>
+        </div>    
     </div>
 
     <!-- nosso javascript -->
