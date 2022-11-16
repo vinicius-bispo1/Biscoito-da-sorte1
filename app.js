@@ -21,7 +21,10 @@ app.get('/', (req, res) => {
 });
 
 // Start Server
-app.listen(process.env.PORT || 3000, () => {
-  console.log('Servidor rodando com express')
-  console.log('Pressione CTRL+C para encerrar')
+//app.listen(process.env.PORT || 3000, () => {
+  //console.log('Servidor rodando com express')
+  //console.log('Pressione CTRL+C para encerrar')
+//});
+app.listen(3000, function (){
+  console.log('Servidor rodando http://localhost:3000')
 });

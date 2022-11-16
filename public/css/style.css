@@ -28,11 +28,16 @@ body {
     margin: auto;
 }
 
+.container button:active{
+    background-color: rgb(72, 245, 124);
+}
+
 .container button {
     width: 200px;
     font-size: 14px;
     color: white;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .card{
@@ -54,5 +59,6 @@ body {
   border: 2px solid rgb(12, 238, 80);
   border-radius: 8px;
   padding: 5px; 
+  
   
 }
